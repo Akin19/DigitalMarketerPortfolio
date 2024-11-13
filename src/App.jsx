@@ -4,10 +4,10 @@ import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
-import Portfolio from "./Components/Portfolio/Portfolio";
+// import Portfolio from "./Components/Portfolio/Portfolio";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
-
+import PortfolioDigital from "./Components/PortfolioDigital/PortfolioDigital";
 const App = () => {
   return (
     <div>
@@ -16,7 +16,8 @@ const App = () => {
       <About />
       <Experience />
       <Services />
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <PortfolioDigital />
       <Testimonials />
       <Contact />
       <Footer />

@@ -25,16 +25,16 @@ const Nav = () => {
         <FaRegUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("experience")}
-        className={activeNav === "experience" ? "active" : ""}
+        href="#services"
+        onClick={() => setActiveNav("services")}
+        className={activeNav === "services" ? "active" : ""}
       >
         <FiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("services")}
-        className={activeNav === "services" ? "active" : ""}
+        href="#work"
+        onClick={() => setActiveNav("work")}
+        className={activeNav === "work" ? "active" : ""}
       >
         <RiServiceFill />
       </a>

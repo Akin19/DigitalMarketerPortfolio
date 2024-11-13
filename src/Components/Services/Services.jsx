@@ -9,75 +9,86 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="services_head">
-            <h3>UI/UX Design</h3>
+            <h3>Digital Marketing</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Blog posts, articles, infographics, videos, and social media
+                content.
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Topic research, keyword mapping, and SEO content planning.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Improving existing content to rank better and increase
+                engagement.
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Sharing content across relevant platforms to maximize reach.
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Improving layout, content, and CTAs for higher conversions.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Testing variations to see what works best.</p>
             </li>
-            <li>
+            {/* <li>
               <FaCheck className="service_list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* UI/UX ends here */}
 
         <article className="service">
           <div className="services_head">
-            <h3>Web Development</h3>
+            <h3>Social Media Marketting</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Account setup.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>profile optimization.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Regular posting, Audience research </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Content calendar and engagement strategies..</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Ad creation and targeting</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Campaign optimization on platforms like Facebook, Instagram, and
+                LinkedIn.
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Search ads, display ads, and retargeting.</p>
             </li>
           </ul>
         </article>
@@ -86,37 +97,45 @@ const Services = () => {
 
         <article className="service">
           <div className="services_head">
-            <h3>Content Creation</h3>
+            <h3>SEO</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>On-Page SEO.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Off-Page SEO.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Technical SEO.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Local SEO.</p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Keyword optimization, meta tags, headers, image optimization,
+                internal linking..
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Link-building strategy, guest posting, and backlink analysis.
+              </p>
             </li>
             <li>
               <FaCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Website speed optimization, mobile-friendliness, crawlability,
+                indexation.
+              </p>
             </li>
           </ul>
         </article>
